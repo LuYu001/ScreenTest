@@ -33,23 +33,20 @@
 }
 
 - (void)initTest {
-    
+    /*
     CGFloat SCWidth = [UIScreen mainScreen].bounds.size.width;
     CGFloat SCHeight = [UIScreen mainScreen].bounds.size.height;
     CGFloat width = SCWidth/64;
-    
-    
     for (int i = 0; i<64; i++) {
         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(i*width, 0, width, SCHeight)];
-        
         float idx = i;
         CGFloat R = (idx*4)/254;
-        
         view.backgroundColor = [UIColor colorWithDisplayP3Red:0 green:0 blue:R alpha:1];
-        
         [self.view addSubview:view];
         view  = nil;
     }
+    */
+    
     
     _topView = [UIView new];
     _topView.frame = self.view.frame;
@@ -86,9 +83,7 @@
 }
 
 - (void)tapNextTest {
-    
-    
-    
+      
 }
 
 - (void)didReceiveMemoryWarning {
