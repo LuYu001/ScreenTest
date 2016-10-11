@@ -15,8 +15,8 @@
 		E3185B661DAC918F00DBB53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3185B641DAC918F00DBB53C /* LaunchScreen.storyboard */; };
 		E3185B711DAC918F00DBB53C /* ScreenTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3185B701DAC918F00DBB53C /* ScreenTestTests.m */; };
 		E3185B7C1DAC918F00DBB53C /* ScreenTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3185B7B1DAC918F00DBB53C /* ScreenTestUITests.m */; };
-		E3185B8C1DACD8A200DBB53C /* Simulator Screen Shot 2016年10月11日 下午4.21.29.png in Resources */ = {isa = PBXBuildFile; fileRef = E3185B8A1DACD8A200DBB53C /* Simulator Screen Shot 2016年10月11日 下午4.21.29.png */; };
-		E3185B8D1DACD8A200DBB53C /* Simulator Screen Shot 2016年10月11日 下午4.21.32.png in Resources */ = {isa = PBXBuildFile; fileRef = E3185B8B1DACD8A200DBB53C /* Simulator Screen Shot 2016年10月11日 下午4.21.32.png */; };
+		E3185B8C1DACD8A200DBB53C /* s1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3185B8A1DACD8A200DBB53C /* s1.png */; };
+		E3185B8D1DACD8A200DBB53C /* s2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3185B8B1DACD8A200DBB53C /* s2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +53,8 @@
 		E3185B771DAC918F00DBB53C /* ScreenTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3185B7B1DAC918F00DBB53C /* ScreenTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenTestUITests.m; sourceTree = "<group>"; };
 		E3185B7D1DAC918F00DBB53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3185B8A1DACD8A200DBB53C /* Simulator Screen Shot 2016年10月11日 下午4.21.29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2016年10月11日 下午4.21.29.png"; sourceTree = "<group>"; };
-		E3185B8B1DACD8A200DBB53C /* Simulator Screen Shot 2016年10月11日 下午4.21.32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2016年10月11日 下午4.21.32.png"; sourceTree = "<group>"; };
+		E3185B8A1DACD8A200DBB53C /* s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s1.png; sourceTree = "<group>"; };
+		E3185B8B1DACD8A200DBB53C /* s2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +148,8 @@
 		E3185B891DACD8A200DBB53C /* ScreenShot */ = {
 			isa = PBXGroup;
 			children = (
-				E3185B8A1DACD8A200DBB53C /* Simulator Screen Shot 2016年10月11日 下午4.21.29.png */,
-				E3185B8B1DACD8A200DBB53C /* Simulator Screen Shot 2016年10月11日 下午4.21.32.png */,
+				E3185B8A1DACD8A200DBB53C /* s1.png */,
+				E3185B8B1DACD8A200DBB53C /* s2.png */,
 			);
 			path = ScreenShot;
 			sourceTree = "<group>";
@@ -260,10 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3185B8D1DACD8A200DBB53C /* Simulator Screen Shot 2016年10月11日 下午4.21.32.png in Resources */,
+				E3185B8D1DACD8A200DBB53C /* s2.png in Resources */,
 				E3185B661DAC918F00DBB53C /* LaunchScreen.storyboard in Resources */,
 				E3185B631DAC918F00DBB53C /* Assets.xcassets in Resources */,
-				E3185B8C1DACD8A200DBB53C /* Simulator Screen Shot 2016年10月11日 下午4.21.29.png in Resources */,
+				E3185B8C1DACD8A200DBB53C /* s1.png in Resources */,
 				E3185B611DAC918F00DBB53C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
